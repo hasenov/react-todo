@@ -1,0 +1,38 @@
+.container
+  max-width: 1170px
+  margin: 0 auto
+  padding-left: 15px
+  padding-right: 15px
+
+ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+$accent: #3c5d9e
+
+.navbar
+  background-color: $accent
+  &__logo
+    color: #ffffff
+    font-size: 1.6rem
+    &:hover
+      color: #ffffff
+      text-decoration: none
+  &__nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__list
+    display: flex
+    a
+      padding: 20px
+      display: block
+      color: #ffffff
+      text-decoration: none
+      &:hover
+        background-color: lighten($accent, 5)
+      &.active
+        background-color: lighten($accent, 5)
+
+
