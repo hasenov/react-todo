@@ -12,7 +12,7 @@ import './App.sass'
 function App() {
   return (
     <TodosContextProvider>
-      <Router>
+      <Router basename="/react-todo">
         <Navbar />
         <div className="container">
           <Routes />
