@@ -1,11 +1,12 @@
 import React from 'react'
 
-const index = () => {
+const About = () => {
   return (
-    <div>
-      
+    <div className="about">
+      <p>Simple todo app made with React/React Hooks/Context API/Local storage ☕️</p>
+      <h3>by aidardev</h3>
     </div>
   )
 }
 
-export default index
+export default About

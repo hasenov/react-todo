@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import TodoForm from '../../components/TodoForm'
+import TodoList from '../../components/TodoList'
 
-const index = () => {
+const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <Fragment>
+      <div className="todo-form">
+        <TodoForm />
+      </div>
+      <div className="todos">
+        <TodoList />
+      </div>
+    </Fragment>
   )
 }
 
-export default index
+export default Home

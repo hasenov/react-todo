@@ -10,7 +10,7 @@ import About from './pages/About'
 const Routes = () => {
   return (
     <Switch>
-      <Route path='/' component={Home} />
+      <Route exact path='/' component={Home} />
       <Route path='/about' component={About} />
     </Switch>
   )
