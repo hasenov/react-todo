@@ -1,5 +1,7 @@
 Simple todo app made with React/React Hooks/Context API/Local storage.
 
+You can edit, delete, set done todos.
+
 ## Available Scripts
 
 In the project directory, you can run:
