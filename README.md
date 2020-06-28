@@ -1,3 +1,5 @@
+https://hasenov.github.io/react-todo/
+
 Simple todo app made with React/React Hooks/Context API/Local storage.
 
 You can edit, delete, set done todos.
