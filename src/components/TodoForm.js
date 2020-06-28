@@ -4,7 +4,7 @@ import { TodosContext } from '../context/todosContext'
 const TodoForm = () => {
 
   const todosContext = useContext(TodosContext);
-  const { addTodo, editTodo, current, setCurrentValue } = todosContext;
+  const { addTodo, editTodo, current } = todosContext;
 
   const [title, setTitle] = useState('');
 

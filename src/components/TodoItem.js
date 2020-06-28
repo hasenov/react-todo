@@ -23,7 +23,7 @@ const TodoItem = ({ todo }) => {
 
   return (
     <li className={`todo-list__item ${done ? 'done' : ''}`}>
-      <span>{todo.title}</span>
+      <span>{title}</span>
       <div className="todo-list__buttons">
         <button className="icon icon--dark" onClick={onEdit}>
           <ion-icon name="pencil-outline"></ion-icon>
